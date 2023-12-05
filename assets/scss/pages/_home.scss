@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: $header-bg !important;
+    ;
+    nav{
+        background-color: $header-bg !important;
+        .navIcon{
+            text-transform: uppercase;
+            letter-spacing: .2em;
+            font-weight: 400;  
+        }
+        width: 80%;
+        margin: auto;
+        .collapseDiv{
+            background-color:$header-bg !important;
+            justify-content: flex-end;
+            .navbar-nav li a{
+                color:$a-color!important;
+            }
+        }
+    }
+}
+#Adopted{
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://preview.colorlib.com/theme/adopted/img/slider-1.jpg');
+    .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-top: 20px;
+        .AdoptedText{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            span{
+                font-family: "Sacramento", cursive;
+                font-size: 27px;
+
+            }
+            h2{
+                font-size: 40px;
+                font-weight: 600;
+                margin-top: 5px;
+            }
+            p{
+                width: 90%;
+                font-size: 20px;
+               line-height: 1.5;
+                font-weight: 300;
+}
+            }
+            button{
+                background-color: $button-color ;  
+                padding: 10px;
+                border: none;
+                color: $a-color;
+                font-weight: 400;
+                &:hover{
+                    cursor: pointer;
+                    background-color: $button-color;
+                }
+            }
+        }
+    }
+#Steps{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: $header-bg;
+    .container{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+      .StepsHeader{
+        margin-top: 20px;
+        padding: 10px;
+        img{
+            width: 70%;
+            height: auto;
+            margin-top: 20px;
+        }
+        p{
+            margin-top: 20px;
+            width: 70%;
+            font-size: 18px;
+               line-height: 1.5;
+                font-weight: 300;
+                color: $text-color;
+        }
+        button{
+            background-color: $header-bg;  
+            padding: 10px;
+            border: 2px solid $button-color;
+            color:$button-color;
+            font-weight: 400;
+            &:hover{
+                cursor: pointer;
+                background-color: $button-color;
+                color: $header-bg;
+            } 
+        }
+
+      }  
+      .StepsText{
+        padding: 20px;
+        margin-top: 20px;
+        .StepsCard{
+            margin-top: 20px;
+        }
+    }
+    }
+}
+#WaitingChildren{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $bg-color;
+    .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .WaitingChildrenHeader{
+         display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        h2{
+            margin-top: 20px;
+            font-size: 28px;
+        }
+        p{
+            margin-top: 10px;
+            width: 60%;
+            color: $text-color;
+            font-size: 17px;
+        }
+        button{
+            background-color: $button-color;  
+            padding: 10px;
+            border: none;
+            color: $header-bg;
+            font-weight: 400;
+            &:hover{
+                cursor: pointer;
+                background-color: $button-color;
+            }
+        }
+        }
+       .WaitingChildrenText{
+        margin-top: 20px;
+        background-color: $header-bg;
+        img{
+            width: 100%;
+            height: auto;
+          
+       } 
+         .text{
+            padding:20px ;
+            margin-top: 20px;
+                display: flex;
+                p{
+                  font-size: 25px;
+                    font-weight: 800px;
+                }
+        }
+        span{
+            font-size: 15px;
+            color: $text-color;
+        }
+       
+    }
+}}
+#FeaturedStories{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .FeaturedStoriesHeader{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .FeaturedStoriesText{
+            img{
+                width: 100%;
+                height: auto;
+            }
+
+        }
+    }
+
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: $button-color;
+    padding: 30px;
+    .container{
+        width: 100%;
+        height: auto;
+        .foot{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span{
+                color: $header-bg;
+            }
+            i{
+                color:$header-bg;
+            }
+            a{
+                color: $foot-color;
+            }
+        }
+    }
+}
